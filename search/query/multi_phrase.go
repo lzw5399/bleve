@@ -18,11 +18,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/blevesearch/bleve/v2/mapping"
-	"github.com/blevesearch/bleve/v2/search"
-	"github.com/blevesearch/bleve/v2/search/searcher"
-	"github.com/blevesearch/bleve/v2/util"
 	index "github.com/blevesearch/bleve_index_api"
+	"github.com/lzw5399/bleve/v2/mapping"
+	"github.com/lzw5399/bleve/v2/search"
+	"github.com/lzw5399/bleve/v2/search/searcher"
+	"github.com/lzw5399/bleve/v2/util"
 )
 
 type MultiPhraseQuery struct {

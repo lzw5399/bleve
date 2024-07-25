@@ -18,7 +18,7 @@ import (
 	"reflect"
 	"sync/atomic"
 
-	"github.com/blevesearch/bleve/v2/util"
+	"github.com/lzw5399/bleve/v2/util"
 )
 
 // Stats tracks statistics about the index, fields that are

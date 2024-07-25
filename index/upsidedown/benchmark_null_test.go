@@ -17,7 +17,7 @@ package upsidedown
 import (
 	"testing"
 
-	"github.com/blevesearch/bleve/v2/index/upsidedown/store/null"
+	"github.com/lzw5399/bleve/v2/index/upsidedown/store/null"
 )
 
 func BenchmarkNullIndexing1Workers(b *testing.B) {

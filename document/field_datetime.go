@@ -21,10 +21,10 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/blevesearch/bleve/v2/analysis"
-	"github.com/blevesearch/bleve/v2/numeric"
-	"github.com/blevesearch/bleve/v2/size"
 	index "github.com/blevesearch/bleve_index_api"
+	"github.com/lzw5399/bleve/v2/analysis"
+	"github.com/lzw5399/bleve/v2/numeric"
+	"github.com/lzw5399/bleve/v2/size"
 )
 
 var dateTimeValueSeperator = []byte{'\xff'}

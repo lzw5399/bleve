@@ -17,8 +17,8 @@ package upsidedown
 import (
 	"sync/atomic"
 
-	"github.com/blevesearch/bleve/v2/util"
 	"github.com/blevesearch/upsidedown_store_api"
+	"github.com/lzw5399/bleve/v2/util"
 )
 
 type indexStat struct {

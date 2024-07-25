@@ -21,10 +21,10 @@ import (
 	"io"
 	"log"
 
-	"github.com/blevesearch/bleve/v2/mapping"
-	"github.com/blevesearch/bleve/v2/search"
-	"github.com/blevesearch/bleve/v2/util"
 	index "github.com/blevesearch/bleve_index_api"
+	"github.com/lzw5399/bleve/v2/mapping"
+	"github.com/lzw5399/bleve/v2/search"
+	"github.com/lzw5399/bleve/v2/util"
 )
 
 var logger = log.New(io.Discard, "bleve mapping ", log.LstdFlags)

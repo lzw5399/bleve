@@ -18,7 +18,7 @@ import (
 	"unicode"
 
 	"github.com/bits-and-blooms/bitset"
-	"github.com/blevesearch/bleve/v2/analysis"
+	"github.com/lzw5399/bleve/v2/analysis"
 )
 
 type ScriptData struct {

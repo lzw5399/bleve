@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/blevesearch/bleve/v2/mapping"
+	"github.com/lzw5399/bleve/v2/mapping"
 )
 
 type GetIndexHandler struct {

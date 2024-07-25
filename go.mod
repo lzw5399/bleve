@@ -1,4 +1,4 @@
-module github.com/blevesearch/bleve/v2
+module github.com/lzw5399/bleve/v2
 
 go 1.21
 

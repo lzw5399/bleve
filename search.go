@@ -20,15 +20,15 @@ import (
 	"sort"
 	"time"
 
-	"github.com/blevesearch/bleve/v2/analysis"
-	"github.com/blevesearch/bleve/v2/analysis/datetime/optional"
-	"github.com/blevesearch/bleve/v2/document"
-	"github.com/blevesearch/bleve/v2/registry"
-	"github.com/blevesearch/bleve/v2/search"
-	"github.com/blevesearch/bleve/v2/search/collector"
-	"github.com/blevesearch/bleve/v2/search/query"
-	"github.com/blevesearch/bleve/v2/size"
-	"github.com/blevesearch/bleve/v2/util"
+	"github.com/lzw5399/bleve/v2/analysis"
+	"github.com/lzw5399/bleve/v2/analysis/datetime/optional"
+	"github.com/lzw5399/bleve/v2/document"
+	"github.com/lzw5399/bleve/v2/registry"
+	"github.com/lzw5399/bleve/v2/search"
+	"github.com/lzw5399/bleve/v2/search/collector"
+	"github.com/lzw5399/bleve/v2/search/query"
+	"github.com/lzw5399/bleve/v2/size"
+	"github.com/lzw5399/bleve/v2/util"
 )
 
 var reflectStaticSizeSearchResult int

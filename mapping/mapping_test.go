@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/blevesearch/bleve/v2/analysis/tokenizer/exception"
-	"github.com/blevesearch/bleve/v2/analysis/tokenizer/regexp"
-	"github.com/blevesearch/bleve/v2/document"
+	"github.com/lzw5399/bleve/v2/analysis/tokenizer/exception"
+	"github.com/lzw5399/bleve/v2/analysis/tokenizer/regexp"
+	"github.com/lzw5399/bleve/v2/document"
 )
 
 var mappingSource = []byte(`{

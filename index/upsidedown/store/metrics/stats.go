@@ -15,8 +15,8 @@
 package metrics
 
 import (
-	"github.com/blevesearch/bleve/v2/util"
 	store "github.com/blevesearch/upsidedown_store_api"
+	"github.com/lzw5399/bleve/v2/util"
 )
 
 type stats struct {

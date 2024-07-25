@@ -17,7 +17,7 @@
 
 package bleve
 
-import "github.com/blevesearch/bleve/v2/mapping"
+import "github.com/lzw5399/bleve/v2/mapping"
 
 func NewVectorFieldMapping() *mapping.FieldMapping {
 	return mapping.NewVectorFieldMapping()

@@ -22,8 +22,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/blevesearch/bleve/v2"
-	"github.com/blevesearch/bleve/v2/search/query"
+	"github.com/lzw5399/bleve/v2"
+	"github.com/lzw5399/bleve/v2/search/query"
 )
 
 // SearchHandler can handle search requests sent over HTTP

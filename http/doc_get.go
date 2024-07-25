@@ -20,11 +20,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/blevesearch/bleve/v2/analysis/datetime/timestamp/microseconds"
-	"github.com/blevesearch/bleve/v2/analysis/datetime/timestamp/milliseconds"
-	"github.com/blevesearch/bleve/v2/analysis/datetime/timestamp/nanoseconds"
-	"github.com/blevesearch/bleve/v2/analysis/datetime/timestamp/seconds"
 	index "github.com/blevesearch/bleve_index_api"
+	"github.com/lzw5399/bleve/v2/analysis/datetime/timestamp/microseconds"
+	"github.com/lzw5399/bleve/v2/analysis/datetime/timestamp/milliseconds"
+	"github.com/lzw5399/bleve/v2/analysis/datetime/timestamp/nanoseconds"
+	"github.com/lzw5399/bleve/v2/analysis/datetime/timestamp/seconds"
 )
 
 type DocGetHandler struct {

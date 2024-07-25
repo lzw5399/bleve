@@ -26,8 +26,9 @@ import (
 	"github.com/RoaringBitmap/roaring"
 	index "github.com/blevesearch/bleve_index_api"
 	segment "github.com/blevesearch/scorch_segment_api/v2"
-	"github.com/lzw5399/bleve/v2/registry"
 	bolt "go.etcd.io/bbolt"
+
+	"github.com/lzw5399/bleve/v2/registry"
 )
 
 const Name = "scorch"
@@ -523,7 +524,7 @@ func (s *Scorch) prepareSegment(newSegment segment.Segment, ids []string,
 		return err
 	}
 
-	if introduction.persisted != nil {
+	if introduction.persisted != nil && 0 < len(introduction.persisted) {
 		err = <-introduction.persisted
 	}
 
